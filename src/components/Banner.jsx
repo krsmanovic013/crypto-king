@@ -1,4 +1,5 @@
 import { Container, Typography } from "@mui/material";
+import Carousel from "./Carousel";
 
 const Banner = () => {
   return (
@@ -18,6 +19,7 @@ const Banner = () => {
             get all the info regarding your favotire crypto currency
           </Typography>
         </div>
+        <Carousel />
       </Container>
     </div>
   );
